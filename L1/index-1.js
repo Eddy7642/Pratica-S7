@@ -17,9 +17,9 @@ class User {
   }
 }
 
-x = new User('Eros', 'Ramazzotti', 50, 'Roma')
+x = new User('Sfera', 'Ebbasta', 32, 'Cinisello')
 y = new User('Vasco', 'Rossi', 65, 'Zocca')
-z = new User('Luciano', 'Ligabue', 60, 'Correggio')
+z = new User('Jacopo', 'Lazzarini', 29, 'Milano')
 console.log(x.compareAge(y))
 console.log(y.compareAge(z))
 console.log(z.compareAge(x))
