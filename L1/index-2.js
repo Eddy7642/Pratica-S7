@@ -1,10 +1,10 @@
-let petNameField = document.getElementById('petName-field')
-let ownerNameField = document.getElementById('ownerName-field')
-let speciesField = document.getElementById('species-field')
-let breedField = document.getElementById('breed-field')
+const petNameField = document.getElementById('petName-field')
+const ownerNameField = document.getElementById('ownerName-field')
+const speciesField = document.getElementById('species-field')
+const breedField = document.getElementById('breed-field')
 
-let petList = document.getElementById('petList')
-let addButton = document.getElementById('add')
+const petList = document.getElementById('petList')
+const addButton = document.getElementById('add')
 
 let pets = []
 
